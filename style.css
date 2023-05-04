@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 23px;
+    background-color: #211d1d; 
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#input-box{
+    border: 1px solid black;
+    padding: 23px;
+}
+input,textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+button{
+    background-color: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+#notes{
+    padding:23px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.note{
+    width: 250px;
+    color: white;
+    margin: 12px;
+    padding: 12px;
+    border:1px solid white;
+   border-radius: 5px;
+   
+}
+.deleteNote{
+    float:right;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.dnotes{
+    height: 70px;
+    width: 85%;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.btn1{
+    margin-top: 15px;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+.archiveNote{
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+}
+.editNote{
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+}
+.btn2{
+    margin-top: 15px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+}
+.btn3{
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}
